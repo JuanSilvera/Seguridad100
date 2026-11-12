@@ -1,3 +1,25 @@
+/*
+ * Autores: 
+ * - Juan Manuel Silvera
+ * - Carlos Gomez
+ * - Luisa Fernanda Palmera
+ * 
+ * Breve explicación del método de encriptación y desencriptación:
+ * Se utilizó el método de sustitución por desplazamiento ASCII (variante del Cifrado César).
+ * 1. Encriptación: Se recorre la frase de forma recursiva carácter por carácter. A cada 
+ *    carácter se le suma un valor fijo (llave = 3) a su código ASCII, transformándolo 
+ *    en un nuevo símbolo o letra, y el resultado final se guarda en "frase_encriptada.txt" 
+ *    sobrescribiendo cualquier texto anterior.
+ * 2. Desencriptación: Se lee la línea guardada en el archivo y, mediante una función 
+ *    recursiva inversa, se resta el mismo valor fijo (llave = 3) al código ASCII de cada 
+ *    carácter para reconstruir y mostrar la frase original en pantalla.
+ * un cafecito para los que hicieron este código, gracias por su esfuerzo y dedicación.
+ * fer cho
+ * 
+ */
+
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -108,19 +130,3 @@ public class arealimitrofe
         }
     }
 }
-/*
- * Autores: 
- * - Juan Manuel Silvera
- * - Carlos Gomez
- * - Luisa Fernanda Palmera
- * 
- * Breve explicación del método de encriptación y desencriptación:
- * Se utilizó el método de sustitución por desplazamiento ASCII (variante del Cifrado César).
- * 1. Encriptación: Se recorre la frase de forma recursiva carácter por carácter. A cada 
- *    carácter se le suma un valor fijo (llave = 3) a su código ASCII, transformándolo 
- *    en un nuevo símbolo o letra, y el resultado final se guarda en "frase_encriptada.txt" 
- *    sobrescribiendo cualquier texto anterior.
- * 2. Desencriptación: Se lee la línea guardada en el archivo y, mediante una función 
- *    recursiva inversa, se resta el mismo valor fijo (llave = 3) al código ASCII de cada 
- *    carácter para reconstruir y mostrar la frase original en pantalla.
- */
