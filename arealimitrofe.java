@@ -1,7 +1,7 @@
 /*
  * Autores: 
  * - Juan Manuel Silvera
- * - Carlos Gomez
+ * - Carlos Andres Gomez
  * - Luisa Fernanda Palmera
  * 
  * Breve explicación del método de encriptación y desencriptación:
